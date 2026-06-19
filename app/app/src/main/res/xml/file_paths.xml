@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- ✅ CRITICAL: External files directory (primary for APK storage) -->
+    <external-files-path name="external_app_files" path="." />
+    
+    <!-- Internal files directory (fallback) -->
+    <files-path name="internal_files" path="." />
+    
+    <!-- External Storage -->
+    <external-path name="external_files" path="." />
+    
+    <!-- Cache Directory -->
+    <cache-path name="cache_files" path="." />
+    
+    <!-- External Cache -->
+    <external-cache-path name="external_cache" path="." />
+</paths>

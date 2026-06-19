@@ -1,0 +1,1 @@
+# SmartStore V19

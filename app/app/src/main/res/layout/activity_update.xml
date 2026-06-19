@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/primary_color"
+    android:gravity="center"
+    android:padding="32dp">
+
+    <!-- أيقونة المتجر -->
+    <ImageView
+        android:id="@+id/imgUpdateIcon"
+        android:layout_width="96dp"
+        android:layout_height="96dp"
+        android:scaleType="centerCrop"
+        android:src="@mipmap/ic_launcher"
+        android:background="@drawable/app_icon_background"
+        android:contentDescription="App Hub" />
+
+    <!-- اسم المتجر -->
+    <TextView
+        android:id="@+id/txtUpdateAppName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="App Hub"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="@color/white" />
+
+    <!-- رسالة فرعية -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:text="جاري تحديث التطبيق"
+        android:textSize="14sp"
+        android:textColor="#CCFFFFFF" />
+
+    <!-- شريط التقدّم -->
+    <ProgressBar
+        android:id="@+id/updateProgressBar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="260dp"
+        android:layout_height="10dp"
+        android:layout_marginTop="36dp"
+        android:max="100"
+        android:progress="0"
+        android:progressTint="@color/white"
+        android:progressBackgroundTint="#33FFFFFF" />
+
+    <!-- نسبة التقدّم -->
+    <TextView
+        android:id="@+id/txtUpdatePercent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="0%"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="@color/white" />
+
+    <!-- رسالة الحالة -->
+    <TextView
+        android:id="@+id/txtUpdateStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="14dp"
+        android:text="جاري التحضير..."
+        android:textSize="13sp"
+        android:textColor="#E6FFFFFF"
+        android:gravity="center" />
+
+</LinearLayout>

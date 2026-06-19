@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">App Hub</string>
+    
+    <!-- Store UI -->
+    <string name="store_title">متجر التطبيقات الذكي</string>
+    <string name="app_info_title">معلومات التطبيق</string>
+    <string name="app_version">الإصدار: %s</string>
+    <string name="app_size">الحجم: %s</string>
+    <string name="app_rating">التقييم</string>
+    <string name="app_downloads">عدد التنزيلات</string>
+    <string name="app_description">الوصف</string>
+    <string name="app_screenshots">لقطات الشاشة</string>
+    <string name="app_whats_new">ما الجديد</string>
+    
+    <!-- Buttons -->
+    <string name="btn_install">تحديث</string>
+    <string name="btn_update">تحديث</string>
+    <string name="btn_open">فتح التطبيق</string>
+    <string name="btn_installing">جاري التحديث…</string>
+    <string name="btn_opening">جاري الفتح…</string>
+    
+    <!-- Messages -->
+    <string name="msg_reading_apk">جاري قراءة التطبيق…</string>
+    <string name="msg_extracting_info">جاري استخراج المعلومات…</string>
+    <string name="msg_preparing_install">جاري التحضير للتحديث…</string>
+    <string name="msg_installing">جاري التحديث، يرجى الانتظار…</string>
+    <string name="msg_install_success">تم التحديث بنجاح! ✓</string>
+    <string name="msg_install_failed">فشل التحديث، يرجى المحاولة مجدداً</string>
+    <string name="msg_app_installed">التطبيق مثبت بالفعل</string>
+    <string name="msg_opening_app">جاري فتح التطبيق…</string>
+    <string name="msg_no_apk_found">لم يتم العثور على ملف APK في المجلد</string>
+    <string name="msg_permission_required">صلاحية التحديث مطلوبة</string>
+    <string name="msg_grant_permission">منح الصلاحية</string>
+    
+    <!-- Ratings & Reviews -->
+    <string name="rating_excellent">ممتاز</string>
+    <string name="rating_count">%s تقييم</string>
+    <string name="downloads_count">%s+ تنزيل</string>
+    
+    <!-- App Details -->
+    <string name="details_category">الفئة</string>
+    <string name="details_updated">آخر تحديث</string>
+    <string name="details_requires">يتطلب</string>
+    <string name="details_offered_by">من تطوير</string>
+    <string name="details_content_rating">التصنيف العمري</string>
+    
+    <!-- Permissions -->
+    <string name="permissions_title">الأذونات المطلوبة</string>
+    <string name="permission_install">تثبيت التطبيقات</string>
+    <string name="permission_storage">الوصول للملفات</string>
+    <string name="permission_internet">الاتصال بالإنترنت</string>
+</resources>

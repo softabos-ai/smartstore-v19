@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary Colors (Google Play Style) -->
+    <color name="primary_color">#01875f</color>
+    <color name="primary_dark_color">#00664a</color>
+    <color name="primary_light_color">#4db396</color>
+    
+    <!-- Accent Colors -->
+    <color name="accent_color">#00d97e</color>
+    <color name="accent_dark_color">#00a862</color>
+    
+    <!-- Background Colors -->
+    <color name="background_color">#FFFFFF</color>
+    <color name="surface_color">#F5F5F5</color>
+    <color name="card_background">#FFFFFF</color>
+    
+    <!-- Text Colors -->
+    <color name="text_primary">#212121</color>
+    <color name="text_secondary">#757575</color>
+    <color name="text_hint">#BDBDBD</color>
+    
+    <!-- Button Colors -->
+    <color name="button_install_bg">#01875f</color>
+    <color name="button_install_pressed">#00664a</color>
+    <color name="button_disabled">#E0E0E0</color>
+    
+    <!-- Rating Colors -->
+    <color name="rating_star_color">#FFC107</color>
+    <color name="rating_star_empty">#E0E0E0</color>
+    <color name="rating_bg">#FFF9C4</color>
+    
+    <!-- Status Colors -->
+    <color name="success_color">#4CAF50</color>
+    <color name="error_color">#F44336</color>
+    <color name="warning_color">#FF9800</color>
+    <color name="info_color">#2196F3</color>
+    
+    <!-- Common Colors -->
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="transparent">#00000000</color>
+    <color name="divider_color">#E0E0E0</color>
+    
+    <!-- Overlay Colors -->
+    <color name="overlay_dark">#80000000</color>
+    <color name="overlay_light">#80FFFFFF</color>
+    
+    <!-- Launcher Icon Colors -->
+    <color name="ic_launcher_background">@color/primary_color</color>
+</resources>
